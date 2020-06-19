@@ -1,0 +1,196 @@
+
+/*
+    
+    Author     : Linda Marilyn Angulo
+*/
+html
+{ height: 100%;
+width: 80;}
+
+body{
+    background: "BanderaCR.png";
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+.principal {
+    width: 80%;
+    max-width: 88px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: Arial;
+    padding: 10px;
+    
+}
+
+header{
+    border: 2px solid rgb(255, 0, 0);
+    background: rgb(47, 0, 255);
+    margin: 80px 0;
+    font-family: Arial;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    text-align: center;
+    font-family: Arial;
+}
+.main{
+    margin-top: 100px;
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(195, 249, 253);
+    padding: 10px;
+    float: left;
+    box-sizing: border-box; 
+    min-height: 326px;
+    font-family: Arial;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+
+}
+
+aside{
+    margin-top: 99px;
+    width: 80%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    float: left;
+    min-height: 326px;
+    font-family: Arial;
+}
+
+footer{
+    width: 80%;
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+
+@media screen and (min-width: 1024px){
+    .main {
+        width: 100%
+    }
+    aside{
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 300px){
+    .contenedor{
+        width: 100%
+    }
+}
+
+table, td, th {
+    border: 2px solid rgb(25, 0, 255);
+    text-align: center;
+    background-color: rgba(192, 182, 182, 0.425);
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+td, th {
+    
+    padding: 16px;
+}
+#container 
+{ 
+    overflow:hidden;
+    background: #ff0000;
+    border: 2px solid rgb(55, 0, 255);
+}
+
+#container .principal 
+{ 
+  float: left;
+  color: white;
+  border-right: 1px solid rgb(55, 0, 255);
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+}
+
+#container a:hover, .dropdown:hover .dropbtn 
+{ 
+    color: #ffffff;
+    background: #1100fc;
+}
+
+.dropdown{
+    float:left;
+    overflow:hidden;
+}
+
+.dropdown .dropbtn{
+    color:white;
+    padding: 10px 25px 10px 25px;
+    background-color:hsl(0, 100%, 50%);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#container a.last
+{ border-right: 1px;}
+
+.dropdown-content
+{
+    display:none;
+    position:absolute;
+    background-color:#ff0000;
+    border: 2px solid rgb(55, 0, 255);
+    min-width:137px;
+    margin-top:37px;
+}
+
+.dropdown-content a{
+    display:block;
+    float:none;
+    color: white;
+    text-align:left;
+    padding: 12px 16px;
+    text-decoration:none;
+}
+
+.dropdown-content a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background: #ff0000;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+p.Informacion{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 70px;
+    background-color: rgba(255, 255, 255, 0.829);
+    padding: 10px;
+    border-style: double;
+}
+
+p.Carrera{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 70px;
+    background-color: rgba(255, 255, 255, 0.829);
+    padding: 10px;
+    border-style: double;
+}
